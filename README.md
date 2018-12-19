@@ -19,10 +19,6 @@ Windows
  
 # Setup steps
 
-
-https://docs.humio.com/integrations/platform-integrations/kubernetes/
-
-
 ## Create a resource group
 
 Note, you may want to alter the names of all the Azure resources created.
@@ -70,7 +66,7 @@ kubectl apply -f deployment.yml
 ./kubectl-apply.sh
 ```
 
-Wait for public IP
+Wait for public IP.
 ```
 kubectl get service observability-sample-service --watch
 ```
@@ -81,7 +77,7 @@ Once the public IP appears you can access the API in your browser. https://[[Pub
 
 ## References
 
-- [Kubernetes setupin](https://docs.humio.com/integrations/platform-integrations/kubernetes/)
+- [Humio Kubernetes setup](https://docs.humio.com/integrations/platform-integrations/kubernetes/)
 - [Installing Helm](https://docs.helm.sh/using_helm/#installing-helm)
 - [Enabling Helm to access the default namespace](https://docs.helm.sh/using_helm/#example-service-account-with-cluster-admin-role)
 

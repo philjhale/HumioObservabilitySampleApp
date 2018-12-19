@@ -1,0 +1,1 @@
+docker build -t philjhale/humio-observability-sample-app .

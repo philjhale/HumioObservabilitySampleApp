@@ -1,0 +1,1 @@
+docker push philjhale/humio-observability-sample-app
